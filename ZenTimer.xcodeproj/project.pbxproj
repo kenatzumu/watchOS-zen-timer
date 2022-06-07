@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26B8B8E0284FA3B60064C769 /* ZenTimer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 26B8B8DF284FA3B60064C769 /* ZenTimer WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		26B8B8E5284FA3BB0064C769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B8B8E4284FA3BB0064C769 /* Assets.xcassets */; };
+		26B8B8EB284FA3BB0064C769 /* ZenTimer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 26B8B8EA284FA3BB0064C769 /* ZenTimer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		26B8B8F0284FA3BB0064C769 /* ZenTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B8B8EF284FA3BB0064C769 /* ZenTimerApp.swift */; };
+		26B8B8F2284FA3BB0064C769 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B8B8F1284FA3BB0064C769 /* ContentView.swift */; };
+		26B8B8F4284FA3BB0064C769 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B8B8F3284FA3BB0064C769 /* NotificationController.swift */; };
+		26B8B8F6284FA3BB0064C769 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B8B8F5284FA3BB0064C769 /* NotificationView.swift */; };
+		26B8B8F8284FA3BB0064C769 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B8B8F7284FA3BB0064C769 /* ComplicationController.swift */; };
+		26B8B8FA284FA3BC0064C769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B8B8F9284FA3BC0064C769 /* Assets.xcassets */; };
+		26B8B8FD284FA3BC0064C769 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B8B8FC284FA3BC0064C769 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26B8B8E1284FA3B60064C769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26B8B8D5284FA3B60064C769 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26B8B8DE284FA3B60064C769;
+			remoteInfo = "ZenTimer WatchKit App";
+		};
+		26B8B8EC284FA3BB0064C769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26B8B8D5284FA3B60064C769 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26B8B8E9284FA3BB0064C769;
+			remoteInfo = "ZenTimer WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26B8B905284FA3BC0064C769 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				26B8B8EB284FA3BB0064C769 /* ZenTimer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B8B909284FA3BC0064C769 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				26B8B8E0284FA3B60064C769 /* ZenTimer WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		26B8B8DB284FA3B60064C769 /* ZenTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B8B8DF284FA3B60064C769 /* ZenTimer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZenTimer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B8B8E4284FA3BB0064C769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26B8B8EA284FA3BB0064C769 /* ZenTimer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ZenTimer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B8B8EF284FA3BB0064C769 /* ZenTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenTimerApp.swift; sourceTree = "<group>"; };
+		26B8B8F1284FA3BB0064C769 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		26B8B8F3284FA3BB0064C769 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		26B8B8F5284FA3BB0064C769 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		26B8B8F7284FA3BB0064C769 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		26B8B8F9284FA3BC0064C769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26B8B8FC284FA3BC0064C769 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26B8B8FE284FA3BC0064C769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B8B8FF284FA3BC0064C769 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26B8B8E7284FA3BB0064C769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26B8B8D4284FA3B60064C769 = {
+			isa = PBXGroup;
+			children = (
+				26B8B8E3284FA3B60064C769 /* ZenTimer WatchKit App */,
+				26B8B8EE284FA3BB0064C769 /* ZenTimer WatchKit Extension */,
+				26B8B8DC284FA3B60064C769 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26B8B8DC284FA3B60064C769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26B8B8DB284FA3B60064C769 /* ZenTimer.app */,
+				26B8B8DF284FA3B60064C769 /* ZenTimer WatchKit App.app */,
+				26B8B8EA284FA3BB0064C769 /* ZenTimer WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26B8B8E3284FA3B60064C769 /* ZenTimer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				26B8B8E4284FA3BB0064C769 /* Assets.xcassets */,
+			);
+			path = "ZenTimer WatchKit App";
+			sourceTree = "<group>";
+		};
+		26B8B8EE284FA3BB0064C769 /* ZenTimer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				26B8B8EF284FA3BB0064C769 /* ZenTimerApp.swift */,
+				26B8B8F1284FA3BB0064C769 /* ContentView.swift */,
+				26B8B8F3284FA3BB0064C769 /* NotificationController.swift */,
+				26B8B8F5284FA3BB0064C769 /* NotificationView.swift */,
+				26B8B8F7284FA3BB0064C769 /* ComplicationController.swift */,
+				26B8B8F9284FA3BC0064C769 /* Assets.xcassets */,
+				26B8B8FE284FA3BC0064C769 /* Info.plist */,
+				26B8B8FF284FA3BC0064C769 /* PushNotificationPayload.apns */,
+				26B8B8FB284FA3BC0064C769 /* Preview Content */,
+			);
+			path = "ZenTimer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		26B8B8FB284FA3BC0064C769 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				26B8B8FC284FA3BC0064C769 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26B8B8DA284FA3B60064C769 /* ZenTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B8B90A284FA3BC0064C769 /* Build configuration list for PBXNativeTarget "ZenTimer" */;
+			buildPhases = (
+				26B8B8D9284FA3B60064C769 /* Resources */,
+				26B8B909284FA3BC0064C769 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26B8B8E2284FA3B60064C769 /* PBXTargetDependency */,
+			);
+			name = ZenTimer;
+			productName = ZenTimer;
+			productReference = 26B8B8DB284FA3B60064C769 /* ZenTimer.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		26B8B8DE284FA3B60064C769 /* ZenTimer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B8B906284FA3BC0064C769 /* Build configuration list for PBXNativeTarget "ZenTimer WatchKit App" */;
+			buildPhases = (
+				26B8B8DD284FA3B60064C769 /* Resources */,
+				26B8B905284FA3BC0064C769 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26B8B8ED284FA3BB0064C769 /* PBXTargetDependency */,
+			);
+			name = "ZenTimer WatchKit App";
+			productName = "ZenTimer WatchKit App";
+			productReference = 26B8B8DF284FA3B60064C769 /* ZenTimer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		26B8B8E9284FA3BB0064C769 /* ZenTimer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B8B902284FA3BC0064C769 /* Build configuration list for PBXNativeTarget "ZenTimer WatchKit Extension" */;
+			buildPhases = (
+				26B8B8E6284FA3BB0064C769 /* Sources */,
+				26B8B8E7284FA3BB0064C769 /* Frameworks */,
+				26B8B8E8284FA3BB0064C769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZenTimer WatchKit Extension";
+			productName = "ZenTimer WatchKit Extension";
+			productReference = 26B8B8EA284FA3BB0064C769 /* ZenTimer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26B8B8D5284FA3B60064C769 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					26B8B8DA284FA3B60064C769 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					26B8B8DE284FA3B60064C769 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					26B8B8E9284FA3BB0064C769 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 26B8B8D8284FA3B60064C769 /* Build configuration list for PBXProject "ZenTimer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26B8B8D4284FA3B60064C769;
+			productRefGroup = 26B8B8DC284FA3B60064C769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26B8B8DA284FA3B60064C769 /* ZenTimer */,
+				26B8B8DE284FA3B60064C769 /* ZenTimer WatchKit App */,
+				26B8B8E9284FA3BB0064C769 /* ZenTimer WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26B8B8D9284FA3B60064C769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B8B8DD284FA3B60064C769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B8B8E5284FA3BB0064C769 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B8B8E8284FA3BB0064C769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B8B8FD284FA3BC0064C769 /* Preview Assets.xcassets in Resources */,
+				26B8B8FA284FA3BC0064C769 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26B8B8E6284FA3BB0064C769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B8B8F4284FA3BB0064C769 /* NotificationController.swift in Sources */,
+				26B8B8F2284FA3BB0064C769 /* ContentView.swift in Sources */,
+				26B8B8F8284FA3BB0064C769 /* ComplicationController.swift in Sources */,
+				26B8B8F0284FA3BB0064C769 /* ZenTimerApp.swift in Sources */,
+				26B8B8F6284FA3BB0064C769 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26B8B8E2284FA3B60064C769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26B8B8DE284FA3B60064C769 /* ZenTimer WatchKit App */;
+			targetProxy = 26B8B8E1284FA3B60064C769 /* PBXContainerItemProxy */;
+		};
+		26B8B8ED284FA3BB0064C769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26B8B8E9284FA3BB0064C769 /* ZenTimer WatchKit Extension */;
+			targetProxy = 26B8B8EC284FA3BB0064C769 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26B8B900284FA3BC0064C769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26B8B901284FA3BC0064C769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26B8B903284FA3BC0064C769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZenTimer WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 96Q9WQJZW4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ZenTimer WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ZenTimer WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HoreaCrisan.ZenTimer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		26B8B904284FA3BC0064C769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZenTimer WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 96Q9WQJZW4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ZenTimer WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ZenTimer WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HoreaCrisan.ZenTimer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		26B8B907284FA3BC0064C769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96Q9WQJZW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = ZenTimer_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "ZenTimer WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HoreaCrisan.ZenTimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		26B8B908284FA3BC0064C769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96Q9WQJZW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = ZenTimer_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "ZenTimer WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HoreaCrisan.ZenTimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		26B8B90B284FA3BC0064C769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96Q9WQJZW4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HoreaCrisan.ZenTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		26B8B90C284FA3BC0064C769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96Q9WQJZW4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HoreaCrisan.ZenTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26B8B8D8284FA3B60064C769 /* Build configuration list for PBXProject "ZenTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B8B900284FA3BC0064C769 /* Debug */,
+				26B8B901284FA3BC0064C769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B8B902284FA3BC0064C769 /* Build configuration list for PBXNativeTarget "ZenTimer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B8B903284FA3BC0064C769 /* Debug */,
+				26B8B904284FA3BC0064C769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B8B906284FA3BC0064C769 /* Build configuration list for PBXNativeTarget "ZenTimer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B8B907284FA3BC0064C769 /* Debug */,
+				26B8B908284FA3BC0064C769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B8B90A284FA3BC0064C769 /* Build configuration list for PBXNativeTarget "ZenTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B8B90B284FA3BC0064C769 /* Debug */,
+				26B8B90C284FA3BC0064C769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26B8B8D5284FA3B60064C769 /* Project object */;
+}
