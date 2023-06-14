@@ -1,4 +1,4 @@
-# Zen Timer - Simple App for watchOS
+# watchOS-zen-timer
 ![106shots_so](https://github.com/sunshaped/watchOS-zen-timer/assets/37018766/8173fefe-0cdc-4182-94e7-395bf46e29d0)
 ![133shots_so](https://github.com/sunshaped/watchOS-zen-timer/assets/37018766/6e5d359a-4f2f-4948-be54-491dd61a6d47)
 
